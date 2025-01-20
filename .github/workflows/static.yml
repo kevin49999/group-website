@@ -22,7 +22,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: "https://kevin49999.github.io/group.github.io"
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
