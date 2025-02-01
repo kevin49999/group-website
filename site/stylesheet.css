@@ -42,11 +42,15 @@ img {
 	text-decoration: underline; 
 }
 
-/* #x:hover {
-	color: rgb(29, 161, 242);
-} */
+#x {
+	margin: 0px 0px 4px 0px;
+}
+
+#x:hover {
+	color: white;
+}
 
 #privacy:hover {
-	color: white
+	color: white;
 }
 
